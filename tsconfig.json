@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "lib": ["ES2021"],
-    "rootDir": "./src",
+    "rootDir": "./",
     "moduleResolution": "node",
     "outDir": "./dist",
     "baseUrl": "./src",
@@ -13,5 +13,6 @@
     "skipLibCheck": true
   },
   "exclude": ["node_modules"],
-  "include": ["src"]
+  "include": ["src", "api"]
 }
+
